@@ -24,17 +24,14 @@ public class Main {
             if(novcanice[i]*cnt>0)
                 System.out.println(novcanice[i] +" x "+ cnt);
 
-
             if(tmp<5 && tmp>0){
                 if(tmp-kovanice[j]<0)i=0;
-                while(tmp-kovanice[i]>=0)
-                {
+                while(tmp-kovanice[i]>=0) {
                     tmp-=kovanice[i];
                     cnt2++;
                 }
                 if(kovanice[i]*cnt2>0)
                     System.out.println(kovanice[i] +" x "+ cnt2);
-
                 j++;
             }
 
@@ -45,4 +42,3 @@ public class Main {
 
 
     }
-
